@@ -1,0 +1,1119 @@
+Tag - Major Functional Area - Google Domain Type - Activation Type - AfW Features - Priority - Assign Pre Activation - Post Activation - Add - Post Activation - Update - Post Activation - Delete - Post Activation - Remove - MKS TestCase# - # of Manual TC - Release - Uncertain - 
+ -  -  -  -  -  -  -  -  -  -  - In progress - 
+ -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+[AfW-PP-Activation] - Activation Type -  - Work and personal - user privacy (AfW) - Ranking/Activation/Reactivation (With IT Policy, Wifi, VPN, Email, Scep, Device Profile, shared/CA/user credential/user cert) -  -  -  -  -  -  -  -  -  - 
+ -  -  - Work and personal - user privacy (AfW) - Premium - Ranking/Activation/Reactivation (With IT Policy, Wifi, VPN, Email, Scep, Device Profile, shared/CA/user credential/user cert) -  -  -  -  -  -  -  -  -  - 
+ -  -  - Work space only (AfW) - Ranking/Activation/Reactivation (With IT Policy, Wifi, VPN, Email, Scep, Device Profile, shared/CA/user credential/user cert) -  -  -  -  -  -  -  -  -  - 
+ -  -  - Work space only (AfW) - Premium - Ranking/Activation/Reactivation (With IT Policy, Wifi, VPN, Email, Scep, Device Profile, shared/CA/user credential/user cert) -  -  -  -  -  -  -  -  -  - 
+ -  -  - non-AfW (All KNOX, MDM -Control, All SWS) - Ranking/Activation/Reactivation (With IT Policy, Wifi, VPN, Email, Scep, Device Profile, shared/CA/user credential/user cert) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+[AfW-Settings-ManageDomain] - Google Domain dependency - AfW - Google for Work domain -  - Authorize BlackBerry for AfW - Google for Work domain > Do not allow BES12 to create users in the domain -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - Authorize BlackBerry for AfW - Google for Work domain > Allow BES12 to create users in the domain -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - Deauthorize BlackBerry for AfW (Remove Android for Work connection) - Google for Work domain -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - Create User  - Google for Work domain > Do not allow BES12 to create users in the domain -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - Create User (when user is available in Google Domain) - Google for Work domain > Allow BES12 to create users in the domain -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - Create User (when user is not available in Google Domain) - Google for Work domain > Allow BES12 to create users in the domain -  -  -  -  -  -  -  -  -  - 
+[AfW-Settings-AppsDomain] -  - AfW - Google Apps for Work domain -  - Authorize BlackBerry for AfW - Google Apps for Work domain -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - Deauthorize BlackBerry for AfW (Remove Android for Work connection) - Google Apps for Work domain -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - Create User - User from Google Apps for Work domain -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+
+[AfW-PP-Email] - Email - AfW - Google for Work domain - Work and personal - user privacy (AfW) - Email profile with password authentication -  - CONCORD-1469 - CONCORD-1469 - CONCORD-1469 - CONCORD-1469 - CONCORD-1469 - 
+ -  -  -  - Email profile with cert authentication - Shared > Sprint 53 -  - CONCORD-507 - CONCORD-1041 - CONCORD-507 - CONCORD-507 - CONCORD-547 - 
+ -  -  -  - Email profile with cert authentication - SCEP > Sprint 53 -  - CONCORD-506 - CONCORD-1042 - CONCORD-1042 - CONCORD-1042 - CONCORD-1042 - 
+ -  -  -  - Email profile with cert authentication - User credential > Sprint 53 -  - CONCORD-1195 - CONCORD-1194 - CONCORD-1201 - CONCORD-1201 - CONCORD-1201 - 
+ -  -  -  - Email-All Fields-Enable/disable  > Sprint 53 -  - CONCORD-416      
+CONCORD-417 - CONCORD-1066` - CONCORD-1066` - CONCORD-1066` - CONCORD-1066` - 
+ -  -  -  - Email profile - Traveler support > Sprint 53 -  - CONCORD-1436 - CONCORD-1436 - CONCORD-1436 - CONCORD-1436 - CONCORD-1436 - 
+ -  -  - Work and personal - user privacy (AfW) - Premium - Email profile with password authentication -  - CONCORD-1467 - CONCORD-1467 - CONCORD-1467 - CONCORD-1467 - CONCORD-1467 - 
+ -  -  -  - Email profile with cert authentication - Shared > Sprint 53 -  - CONCORD-519 - CONCORD-1043 - CONCORD-520 - CONCORD-520 - CONCORD-546 - 
+ -  -  -  - Email profile with cert authentication - SCEP > Sprint 53 -  - CONCORD-518 - CONCORD-1067 - CONCORD-1067 - CONCORD-1067 - CONCORD-1067 - 
+ -  -  -  - Email profile with cert authentication - User credential > Sprint 53 -  - CONCORD-1196 - CONCORD-1193 - CONCORD-1200 - CONCORD-1200 - CONCORD-1200 - 
+ -  -  -  - Email-All Fields-Enable/disable  > Sprint 53 -  - CONCORD-513    CONCORD-514 - CONCORD-1068 - CONCORD-1068 - CONCORD-1068 - CONCORD-1068 - 
+ -  -  -  - Email profile - Traveler support > Sprint 53 -  - CONCORD-1437 - CONCORD-1437 - CONCORD-1437 - CONCORD-1437 - CONCORD-1437 - 
+ -  -  - Work space only (AfW) - Email profile with password authentication -  - CONCORD-1468 - CONCORD-1468 - CONCORD-1468 - CONCORD-1468 - CONCORD-1468 - 
+ -  -  -  - Email profile with cert authentication - Shared > Sprint 53 -  - CONCORD-1120 - CONCORD-1151 - CONCORD-1160 - CONCORD-1160 - CONCORD-1167 - 
+ -  -  -  - Email profile with cert authentication - SCEP > Sprint 53 -  - CONCORD-1143 - CONCORD-1157 - CONCORD-1157 - CONCORD-1157 - CONCORD-1157 - 
+ -  -  -  - Email profile with cert authentication - User credential > Sprint 53 -  - CONCORD-1198 - CONCORD-1191 - CONCORD-1199 - CONCORD-1199 - CONCORD-1199 - 
+ -  -  -  - Email-All Fields-Enable/disable  > Sprint 53 -  - CONCORD-1186 CONCORD-1188 - CONCORD-1186 - CONCORD-1186 - CONCORD-1186 - CONCORD-1186 - 
+ -  -  -  - Email profile - Traveler support > Sprint 53 -  - CONCORD-1438 - CONCORD-1438 - CONCORD-1438 - CONCORD-1438 - CONCORD-1438 - 
+ -  -  - Work space only (AfW) - Premium - Email profile with password authentication -  - CONCORD-1469 - CONCORD-1469 - CONCORD-1469 - CONCORD-1469 - CONCORD-1469 - 
+ -  -  -  - Email profile with cert authentication - Shared > Sprint 53 -  - CONCORD-1121 - CONCORD-1149 - CONCORD-1159 - CONCORD-1159 - CONCORD-1166 - 
+ -  -  -  - Email profile with cert authentication - SCEP > Sprint 53 -  - CONCORD-1148 - CONCORD-1158 - CONCORD-1158 - CONCORD-1158 - CONCORD-1158 - 
+ -  -  -  - Email profile with cert authentication - User credential > Sprint 53 -  - CONCORD-1197 - CONCORD-1192 - CONCORD-1202 - CONCORD-1202 - CONCORD-1202 - 
+ -  -  -  - Email-All Fields-Enable/disable  > Sprint 53 -  - CONCORD-1185 CONCORD-1187 - CONCORD-1185 - CONCORD-1185 - CONCORD-1185 - CONCORD-1185 -  - 
+ -  -  -  - Email profile - Traveler support > Sprint 53 -  - CONCORD-1439 - CONCORD-1439 - CONCORD-1439 - CONCORD-1439 - CONCORD-1439 - 
+ -  - AfW - Google Apps for Work domain - Work and personal - user privacy (AfW) - Email profile with password authentication -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - Shared > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - SCEP > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - User credential > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email-All Fields-Enable/disable  > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile - Traveler support > Sprint 53 -  -  -  -  -  -  - 
+ -  -  - Work and personal - user privacy (AfW) - Premium - Email profile with password authentication -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - Shared > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - SCEP > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - User credential > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email-All Fields-Enable/disable  > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile - Traveler support > Sprint 53 -  -  -  -  -  -  - 
+ -  -  - Work space only (AfW) - Email profile with password authentication -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - Shared > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - SCEP > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - User credential > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email-All Fields-Enable/disable  > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile - Traveler support > Sprint 53 -  -  -  -  -  -  - 
+ -  -  - Work space only (AfW) - Premium - Email profile with password authentication -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - Shared > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - SCEP > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile with cert authentication - User credential > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email-All Fields-Enable/disable  > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  - Email profile - Traveler support > Sprint 53 -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+[AfW-PP-Compliance] - Compliance - AfW - Google for Work domain - Work and personal - user privacy (AfW) -  -  -  -  -  -  -  - 
+ -  -  - Work and personal - user privacy (AfW) - Premium -  -  -  -  -  -  -  - 
+ -  -  - Work space only (AfW) -  -  -  -  -  -  -  - 
+ -  -  - Work space only (AfW) - Premium -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+[AfW-PP-EC] - EC - AfW - Google for Work domain - Work and personal - user privacy (AfW) -  -  -  -  -  -  -  - 
+ -  -  - Work and personal - user privacy (AfW) - Premium - EC Profile - P2E -  -  -  -  -  -  - 
+ -  -  - Work space only (AfW) -  -  -  -  -  -  -  - 
+ -  -  - Work space only (AfW) - Premium - EC Profile - P2E -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+[AfW-Apps-Mgmt] - Application Management - AfW - Google for Work domain - Work and personal - user privacy (AfW) - App Mgmt: Add Android Apps with permissions, restrictions, screenshots, description etc. (note: App permissions functionality is being changed in Excelsior Sprint 53) -  -  -  - Edit Android Apps with permissions, restrictions, screenshots, description etc. -  -  - 
+ -  -  -  - App Mgmt: create App restrictions in add/edit mode -  - CONCORD-681 - CONCORD-883 - CONCORD-883 - CONCORD-883 - CONCORD-1046 - 10451515, 10451518, 10451521, 10451545 - 
+ -  -  -  - App Mgmt: Create an App Group for AfW and add App to AfW App Group -  - CONCORD-681 - CONCORD-883 - CONCORD-883 - CONCORD-883 - CONCORD-1046 - 1.038499E7 - 
+ -  -  -  - App Mgmt: Edit/Delete AfW App Group -  - CONCORD-831 - CONCORD-885 - CONCORD-830 - CONCORD-830 - CONCORD-1047 - 1.0384993E7 - 
+ -  -  -  - App Mgmt: Assign AfW App group to User > Delivery of app to the device -  - CONCORD-681 - CONCORD-883 - CONCORD-883 - CONCORD-883 - CONCORD-1046 - 10384987, 10418338, 10418368, 10385008, 10385005 - 
+ -  -  -  - App Mgmt: Assign AfW App group to User Group > Delivery of app to the device -  - CONCORD-881 - CONCORD-1044 - CONCORD-881 - CONCORD-881 - CONCORD-1044 - 10385005, 10384999 -  -  - 
+ -  -  -  - App Mgmt: Assign AfW App group to Device Group > Delivery of app to the device (Sprint 53 user story) -  - CONCORD-1173 - CONCORD-1174 - CONCORD-1175 - CONCORD-1175 - CONCORD-1175 -  -  -  - 
+ -  -  -  - App Mgmt: Unassign AfW App group from User > Removal of app from the device -  - CONCORD-681 - CONCORD-883 - CONCORD-883 - CONCORD-883 - CONCORD-1046 - 1.0444512E7 -  -  - 
+ -  -  -  - App Mgmt: Unassign AfW App group from User Group > Removal of app from the device -  - CONCORD-881 - CONCORD-1044 - CONCORD-881 - CONCORD-881 - CONCORD-1044 - 1.0444524E7 -  -  - 
+ -  -  -  - App Mgmt: Unassign AfW App group from Device Group > Removal of app from the device (Sprint 53 US) -  - CONCORT-1288 - CONCORD-1289 - CONCORD-1179 - CONCORD-1179 - CONCORD-1179 - 1.0385002E7 -  -  - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to User > Removal of app from the device -  - CONCORD-1216 - CONCORD-1217 - CONCORD-1218 - CONCORD-1218 - CONCORD-1218 - 1.0444515E7 -  -  - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to User Group > Removal of app from the device -  - CONCORD-1222 - CONCORD-1223 - CONCORD-1224 - CONCORD-1224 - CONCORD-1224 -  -  -  - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to Device Group > Removal of app from the device (Sprint 53 US) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to User > Removal of app from the device -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to User Group > Removal of app from the device -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to Device Group > Removal of app from the device (Sprint 53 US) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Required and Optional disposition for assignment of App Group -  - CONCORD-876 - CONCORD-883 - CONCORD-876 - CONCORD-876 - CONCORD-1048 - 10384984, 10384990 -  -  - 
+ -  -  -  - App Mgmt: Automatic creation of default App Group for Core apps (Divide, Chrome, P2E) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Assign AfW app group (with core app) to user/group and app delivery to device -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Ranking of App restrictions -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Remove App restrictions -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App restrictions/configurations -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delivery of app restrictions to the device -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Application assignments - reconciliation -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Application restrictions - reconciliation -  -  -  -  -  -  - 
+[AfW-Apps-BES12INT] -  -  -  - App Mgmt: BES12 Hosted AfW Enterprise App/Internal App (Sprint 51)
+* Add in App Group
+* Remove from App Group
+* Optional disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  - 
+[AfW-Apps-PlayINT] -  -  -  - App Mgmt: Google Play Hosted AfW Enterprise App/Internal App (Sprint 52)
+* Add in App Group
+* Remove from App Group
+* Optional disposition
+* Required disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  - 
+[AfW-Apps-PlayINT] -  -  -  - App Mgmt: Google Play Hosted AfW Enterprise App/Internal App with app configurations (Sprint 52)
+* ranking of App configurations
+* Add in App Group 
+* Remove from App Group
+* Optional disposition
+* Required disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: non-AfW Enterprise/internal app to BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: non-AfW Enterprise/internal app to Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of Google Play hosted AfW Enterprise/internal app (with app configurations) (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version BES12 hosted internal app and New version Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version Google Play hosted internal app and New version BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version Google Play hosted internal app (without app config) and New version BES12 hosted AfW Enterprise/internal app (with app config)  (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - Apps in non-AfW app group could not be delivered to the device -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+[AfW-Apps-Mgmt] -  - AfW - Google Apps for Work domain - Work and personal - user privacy (AfW) - Premium - App Mgmt: Add Android Apps with permissions, restrictions, screenshots, description etc. (note: App permissions functionality is being changed in Excelsior Sprint 53) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Accept App permissions and add/create App restrictions in add/edit mode -  - CONCORD-666 - CONCORD-884 - CONCORD-884 - CONCORD-884 - CONCORD-1049 - 10451515, 10451518, 10451521, 10451545 -  -  - 
+ -  -  -  - App Mgmt: Create an App Group for AfW and add App to AfW App Group -  - CONCORD-666 - CONCORD-884 - CONCORD-884 - CONCORD-884 - CONCORD-1049 - 1.038499E7 -  -  - 
+ -  -  -  - App Mgmt: Edit/Delete AfW App Group -  - CONCORD-830 - CONCORD-886 - CONCORD-831 - CONCORD-831 - CONCORD-1050 - 1.0384993E7 -  -  - 
+ -  -  -  - App Mgmt: Assign AfW App group to User > Delivery of app to the device -  - CONCORD-666 - CONCORD-883 - CONCORD-830 - CONCORD-884 - CONCORD-1049 - 10384987, 10418338, 10418368, 10385008, 10385005 -  -  - 
+ -  -  -  - App Mgmt: Assign AfW App group to User Group > Delivery of app to the device -  - CONCORD-882 - CONCORD-1045 - CONCORD-882 - CONCORD-882 - CONCORD-1045 - 10385005, 10384999 -  -  - 
+ -  -  -  - App Mgmt: Assign AfW App group to Device Group > Delivery of app to the device (Sprint 53 user story) -  - CONCORD-1178 - CONCORD-1177 - CONCORD-1176 - CONCORD-1176 - CONCORD-1176 -  -  -  - 
+ -  -  -  - App Mgmt: Unassign AfW App group from User > Removal of app from the device -  - CONCORD-666 - CONCORD-883 - CONCORD-830 - CONCORD-884 - CONCORD-1049 - 1.0444512E7 -  -  - 
+ -  -  -  - App Mgmt: Unassign AfW App group from User Group > Removal of app from the device -  - CONCORD-882 - CONCORD-1045 - CONCORD-882 - CONCORD-882 - CONCORD-1045 - 1.0444524E7 -  -  - 
+ -  -  -  - App Mgmt: Unassign AfW App group from Device Group > Removal of app from the device (Sprint 53 US) -  - CONCORD-1291 - CONCORD-1292 - CONCORD-1293 - CONCORD-1293 - CONCORD-1293 -  -  -  - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to User > Removal of app from the device -  - CONCORD-1219 - CONCORD-1220 - CONCORD-1221 - CONCORD-1221 - CONCORD-1221 - 1.0444515E7 -  -  - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to User Group > Removal of app from the device -  - CONCORD-1225 - CONCORD-1226 - CONCORD-1227 - CONCORD-1227 - CONCORD-1227 -  -  -  - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to Device Group > Removal of app from the device (Sprint 53 US) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to User > Removal of app from the device -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to User Group > Removal of app from the device -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to Device Group > Removal of app from the device (Sprint 53 US) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Required and Optional disposition for assignment of App Group -  - CONCORD-877 - CONCORD-884 - CONCORD-666 - CONCORD-666 - CONCORD-1051 - 10384984, 10384990 -  -  - 
+ -  -  -  - App Mgmt: Automatic creation of default App Group for Core apps (Divide, Chrome, P2E) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Assign AfW app group (with core app) to user/group and app delivery to device -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Ranking of App restrictions -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Remove App restrictions -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App restrictions/configurations -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delivery of app restrictions to the device -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Application assignments - reconciliation -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Application restrictions - reconciliation -  -  -  -  -  -  -  -  -  - 
+[AfW-Apps-BES12INT] -  -  -  - App Mgmt: BES12 Hosted AfW Enterprise App/Internal App (Sprint 51)
+* Add in App Group
+* Remove from App Group
+* Optional disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  -  -  -  - 
+[AfW-Apps-PlayINT] -  -  -  - App Mgmt: Google Play Hosted AfW Enterprise App/Internal App (Sprint 52)
+* Add in App Group
+* Remove from App Group
+* Optional disposition
+* Required disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  -  -  -  - 
+[AfW-Apps-PlayINT] -  -  -  - App Mgmt: Google Play Hosted AfW Enterprise App/Internal App with app configurations (Sprint 52)
+* ranking of App configurations
+* Add in App Group 
+* Remove from App Group
+* Optional disposition
+* Required disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: non-AfW Enterprise/internal app to BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: non-AfW Enterprise/internal app to Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of Google Play hosted AfW Enterprise/internal app (with app configurations) (Sprint 52) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version BES12 hosted internal app and New version Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version Google Play hosted internal app and New version BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version Google Play hosted internal app (without app config) and New version BES12 hosted AfW Enterprise/internal app (with app config)  (Sprint 52) -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - Apps in non-AfW app group could not be delivered to the device -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+[AfW-Apps-Mgmt] -  - AfW - Google for Work domain - Work space only (AfW) - App Mgmt: Add Android Apps with permissions, restrictions, screenshots, description etc. (note: App permissions functionality is being changed in Excelsior Sprint 53) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Accept App permissions and add/create App restrictions in add/edit mode -  - CONCORD-1331 - CONCORD-1333 - CONCORD-1333 - CONCORD-1333 - CONCORD-1334 - 10451515, 10451518, 10451521, 10451545 - 
+ -  -  -  - App Mgmt: Create an App Group for AfW and add App to AfW App Group -  - CONCORD-1337 - CONCORD-1345 - CONCORD-1345 - CONCORD-1345 - CONCORD-1334 - 1.038499E7 - 
+ -  -  -  - App Mgmt: Edit/Delete AfW App Group -  - CONCORD-1339 - CONCORD-1347 - CONCORD-1351 - CONCORD-1351 - CONCORD-1351 - 
+ -  -  -  - App Mgmt: Assign AfW App group to User > Delivery of app to the device -  - CONCORD-1341 - CONCORD-1345 - CONCORD-1345 - CONCORD-1345 - CONCORD-1334 - 10384987, 10418338, 10418368, 10385008, 10385005 - 
+ -  -  -  - App Mgmt: Assign AfW App group to User Group > Delivery of app to the device -  - CONCORD-1343 - CONCORD-1349 - CONCORD-1343 - CONCORD-1343 - CONCORD-1349 - 10385005, 10384999 - 
+ -  -  -  - App Mgmt: Assign AfW App group to Device Group > Delivery of app to the device (Sprint 53 user story) -  - CONCORD-1182 - CONCORD-1183 - CONCORD-1184 - CONCORD-1184 - CONCORD-1184 -  -  -  - 
+ -  -  -  - App Mgmt: Unassign AfW App group from User > Removal of app from the device -  - CONCORD-1337 - CONCORD-1345 - CONCORD-1345 - CONCORD-1345 - CONCORD-1334 - 1.0444512E7 - 
+ -  -  -  - App Mgmt: Unassign AfW App group from User Group > Removal of app from the device -  - CONCORD-1343 - CONCORD-1349 - CONCORD-1343 - CONCORD-1343 - CONCORD-1349 - 1.0444524E7 - 
+ -  -  -  - App Mgmt: Unassign AfW App group from Device Group > Removal of app from the device (Sprint 53 US) -  - CONCORD-1294 - CONCORD-1295 - CONCORD-1296 - CONCORD-1296 - CONCORD-1296 - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to User > Removal of app from the device -  - CONCORD-1355 - CONCORD-1359 - CONCORD-1364 - CONCORD-1364 - CONCORD-1364 - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to User Group > Removal of app from the device -  - CONCORD-1357 - CONCORD-1361 - CONCORD-1367 - CONCORD-1367 - CONCORD-1367 - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to Device Group > Removal of app from the device (Sprint 53 US) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to User > Removal of app from the device -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to User Group > Removal of app from the device -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to Device Group > Removal of app from the device (Sprint 53 US) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Required and Optional disposition for assignment of App Group -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Automatic creation of default App Group for Core apps (Divide, Chrome, P2E) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Assign AfW app group (with core app) to user/group and app delivery to device -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Ranking of App restrictions -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Remove App restrictions -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App restrictions/configurations -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delivery of app restrictions to the device -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Application assignments - reconciliation -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Application restrictions - reconciliation -  -  -  -  -  -  - 
+[AfW-Apps-BES12INT] -  -  -  - App Mgmt: BES12 Hosted AfW Enterprise App/Internal App (Sprint 51)
+* Add in App Group
+* Remove from App Group
+* Optional disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  - 
+[AfW-Apps-PlayINT] -  -  -  - App Mgmt: Google Play Hosted AfW Enterprise App/Internal App (Sprint 52)
+* Add in App Group
+* Remove from App Group
+* Optional disposition
+* Required disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  - 
+[AfW-Apps-PlayINT] -  -  -  - App Mgmt: Google Play Hosted AfW Enterprise App/Internal App with app configurations (Sprint 52)
+* ranking of App configurations
+* Add in App Group 
+* Remove from App Group
+* Optional disposition
+* Required disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: non-AfW Enterprise/internal app to BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: non-AfW Enterprise/internal app to Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of Google Play hosted AfW Enterprise/internal app (with app configurations) (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version BES12 hosted internal app and New version Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version Google Play hosted internal app and New version BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version Google Play hosted internal app (without app config) and New version BES12 hosted AfW Enterprise/internal app (with app config)  (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - Apps in non-AfW app group could not be delivered to the device -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Accept App permissions -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+[AfW-Apps-Mgmt] -  - AfW - Google Apps for Work domain - Work space only (AfW) - Premium - App Mgmt: Add Android Apps with permissions, restrictions, screenshots, description etc. (note: App permissions functionality is being changed in Excelsior Sprint 53) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Accept App permissions and add/create App restrictions in add/edit mode -  - CONCORD-1332 - CONCORD-1335 - CONCORD-1335 - CONCORD-1335 - CONCORD-1336 - 10451515, 10451518, 10451521, 10451545 - 
+ -  -  -  - App Mgmt: Create an App Group for AfW and add App to AfW App Group -  - CONCORD-1338 - CONCORD-1346 - CONCORD-1346 - CONCORD-1346 - CONCORD-1336 - 1.038499E7 - 
+ -  -  -  - App Mgmt: Edit/Delete AfW App Group -  - CONCORD-1340 - CONCORD-1348 - CONCORD-1352 - CONCORD-1352 - CONCORD-1352 - 
+ -  -  -  - App Mgmt: Assign AfW App group to User > Delivery of app to the device -  - CONCORD-1342 - CONCORD-1346 - CONCORD-1346 - CONCORD-1346 - CONCORD-1336 - 10384987, 10418338, 10418368, 10385008, 10385005 - 
+ -  -  -  - App Mgmt: Assign AfW App group to User Group > Delivery of app to the device -  - CONCORD-1344 - CONCORD-1350 - CONCORD-1350 - CONCORD-1350 - CONCORD-1350 - 10385005, 10384999 - 
+ -  -  -  - App Mgmt: Assign AfW App group to Device Group > Delivery of app to the device (Sprint 53 user story) -  - CONCORD-1180 - CONCORD-1181 - CONCORD-1179 - CONCORD-1179 - CONCORD-1179 -  -  -  - 
+ -  -  -  - App Mgmt: Unassign AfW App group from User > Removal of app from the device -  - CONCORD-1338 - CONCORD-1346 - CONCORD-1346 - CONCORD-1346 - CONCORD-1336 - 1.0444512E7 - 
+ -  -  -  - App Mgmt: Unassign AfW App group from User Group > Removal of app from the device -  - CONCORD-1344 - CONCORD-1350 - CONCORD-1350 - CONCORD-1350 - CONCORD-1350 - 1.0444524E7 - 
+ -  -  -  - App Mgmt: Unassign AfW App group from Device Group > Removal of app from the device (Sprint 53 US) -  - CONCORD-1297 - CONCORD-1298 - CONCORD-1299 - CONCORD-1299 - CONCORD-1299 - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to User > Removal of app from the device -  - CONCORD-1356 - CONCORD-1360 - CONCORD-1365 - CONCORD-1365 - CONCORD-1365 - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to User Group > Removal of app from the device -  - CONCORD-1358 - CONCORD-1363 - CONCORD-1368 - CONCORD-1368 - CONCORD-1368 - 
+ -  -  -  - App Mgmt: Remove App from AfW App group which assigned to Device Group > Removal of app from the device (Sprint 53 US) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to User > Removal of app from the device -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to User Group > Removal of app from the device -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App which is in AfW App group, which assigned to Device Group > Removal of app from the device (Sprint 53 US) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Required and Optional disposition for assignment of App Group -  -  -  -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Automatic creation of default App Group for Core apps (Divide, Chrome, P2E) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Assign AfW app group (with core app) to user/group and app delivery to device -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Ranking of App restrictions -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Remove App restrictions -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delete App restrictions/configurations -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Delivery of app restrictions to the device -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Application assignments - reconciliation -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Application restrictions - reconciliation -  -  -  -  -  -  - 
+[AfW-Apps-BES12INT] -  -  -  - App Mgmt: BES12 Hosted AfW Enterprise App/Internal App (Sprint 51)
+* Add in App Group
+* Remove from App Group
+* Optional disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  - 
+[AfW-Apps-PlayINT] -  -  -  - App Mgmt: Google Play Hosted AfW Enterprise App/Internal App (Sprint 52)
+* Add in App Group
+* Remove from App Group
+* Optional disposition
+* Required disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  - 
+[AfW-Apps-PlayINT] -  -  -  - App Mgmt: Google Play Hosted AfW Enterprise App/Internal App with app configurations (Sprint 52)
+* ranking of App configurations
+* Add in App Group 
+* Remove from App Group
+* Optional disposition
+* Required disposition
+* Assign to User/Group/Device Group
+* Unassign from User/Group/Device Group -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: non-AfW Enterprise/internal app to BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: non-AfW Enterprise/internal app to Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: New version of Google Play hosted AfW Enterprise/internal app (with app configurations) (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version BES12 hosted internal app and New version Google Play hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version Google Play hosted internal app and New version BES12 hosted AfW Enterprise/internal app (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - App Mgmt: Old version Google Play hosted internal app (without app config) and New version BES12 hosted AfW Enterprise/internal app (with app config)  (Sprint 52) -  -  -  -  -  -  - 
+ -  -  -  - Apps in non-AfW app group could not be delivered to the device -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+[AfW-PP-Wifi] - WiFi - AfW - Google for Work domain - Work and personal - user privacy (AfW) - WIFI > TLS with password authentication -  - CONCORD-894 - CONCORD-1075 - CONCORD-1075 - CONCORD-1075 - CONCORD-1075 - 
+ -  -  -  - WIFI > PEAP with password authentication -  - CONCORD-896 - CONCORD-1076 - CONCORD-1076 - CONCORD-1076 - CONCORD-1076 - 
+ -  -  -  - WIFI > TTLS with password authentication -  - CONCORD-895 - CONCORD-1077 - CONCORD-1077 - CONCORD-1077 - CONCORD-1077 - 
+ -  -  -  - WIFI > TLS with cert authentication - Shared (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - WIFI > TLS with cert authentication - SCEP (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - WIFI > TLS with cert authentication - User credential (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - Wifi with certificate + proxy -  - CONCORD-1256 - CONCORD-1260 - CONCORD-1260 - CONCORD-1260 - CONCORD-1260 - 
+ -  -  -  - WIFI-All Fields - Enable/Disable -  - CONCORD-1264 - CONCORD-1268 - CONCORD-1268 - CONCORD-1268 - CONCORD-1268 - 
+ -  - AfW - Google Apps for Work domain - Work and personal - user privacy (AfW) - Premium - WIFI > TLS with password authentication -  - CONCORD-1078 - CONCORD-1081 - CONCORD-1081 - CONCORD-1081 - CONCORD-1081 - 
+ -  -  -  - WIFI > PEAP with password authentication -  - CONCORD-1079 - CONCORD-1082 - CONCORD-1082 - CONCORD-1082 - CONCORD-1082 - 
+ -  -  -  - WIFI > TTLS with password authentication -  - CONCORD-1080 - CONCORD-1083 - CONCORD-1083 - CONCORD-1083 - CONCORD-1083 - 
+ -  -  -  - WIFI > TLS with cert authentication - Shared (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - WIFI > TLS with cert authentication - SCEP (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - WIFI > TLS with cert authentication - User credential (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - Wifi with certificate + proxy -  - CONCORD-1259 - CONCORD-1261 - CONCORD-1261 - CONCORD-1261 - CONCORD-1261 - 
+ -  -  -  - WIFI-All Fields - Enable/Disable -  - CONCORD-1265 -  CONCORD-1269   -  CONCORD-1269   -  CONCORD-1269   -  CONCORD-1269   - 
+ -  - AfW - Google for Work domain - Work space only (AfW) - WIFI > TLS with password authentication -  - CONCORD-1133 - CONCORD-1133 - CONCORD-1133 - CONCORD-1133 - CONCORD-1133 - 
+ -  -  -  - WIFI > PEAP with password authentication -  - CONCORD-1134 - CONCORD-1134 - CONCORD-1134 - CONCORD-1134 - CONCORD-1134 - 
+ -  -  -  - WIFI > TTLS with password authentication -  - CONCORD-1135 - CONCORD-1135 - CONCORD-1135 - CONCORD-1135 - CONCORD-1135 - 
+ -  -  -  - WIFI > TLS with cert authentication - Shared (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - WIFI > TLS with cert authentication - SCEP (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - WIFI > TLS with cert authentication - User credential (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - Wifi with certificate + proxy -  - CONCORD-1257 - CONCORD-1262 - CONCORD-1262 - CONCORD-1262 - CONCORD-1262 - 
+ -  -  -  - WIFI-All Fields - Enable/Disable -  - CONCORD-1266 - CONCORD-1270 - CONCORD-1270 - CONCORD-1270 - CONCORD-1270 - 
+ -  - AfW - Google Apps for Work domain - Work space only (AfW) - Premium - WIFI > TLS with password authentication -  - CONCORD-1137 - CONCORD-1141 - CONCORD-1141 - CONCORD-1141 - CONCORD-1141 - 
+ -  -  -  - WIFI > PEAP with password authentication -  - CONCORD-1138 - CONCORD-1144 - CONCORD-1144 - CONCORD-1144 - CONCORD-1144 - 
+ -  -  -  - WIFI > TTLS with password authentication -  - CONCORD-1139 - CONCORD-1145 - CONCORD-1145 - CONCORD-1145 - CONCORD-1145 - 
+ -  -  -  - WIFI > TLS with cert authentication - Shared (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - WIFI > TLS with cert authentication - SCEP (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - WIFI > TLS with cert authentication - User credential (NOT working) -  -  -  -  -  -  - 
+ -  -  -  - Wifi with certificate + proxy -  - CONCORD-1258 - CONCORD-1263 - CONCORD-1263 - CONCORD-1263 - CONCORD-1263 - 
+ -  -  -  - WIFI-All Fields - Enable/Disable -  - CONCORD-1267 - CONCORD-1271 - CONCORD-1271 - CONCORD-1271 - CONCORD-1271 - 
+ -  -  -  -  -  -  -  -  -  - 
+[AfW-PP-ITP] - IT Admin - AfW - Google for Work domain - Work and personal - user privacy (AfW) - ITAdmin commands - Update Device Data -  -  - CONCORD-1454 -  -  -  - 
+ -  -  -  - ITAdmin commands - Specify Device Password and Lock -  - N/A - CONCORD-817 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - View Device report -  - N/A - CONCORD-857 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - View Device actions -  - N/A - CONCORD-859 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Lock Device -  - N/A - CONCORD-806 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Delete Only Work Data -  - N/A - CONCORD-1458 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Update device information -  - N/A - CONCORD-1462 - N/A - N/A - N/A - 
+ -  - AfW - Google Apps for Work domain - Work and personal - user privacy (AfW) - Premium - ITAdmin commands - Update Device Data -  - N/A - CONCORD-1455 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Specify Device Password and Lock -  - N/A - CONCORD-818 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - View Device report -  - N/A - CONCORD-858 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - View Device actions -  - N/A - CONCORD-860 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Lock Device -  - N/A - CONCORD-807 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Delete Only Work Data -  - N/A - CONCORD-1459 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Update device information -  - N/A - CONCORD-1463 - N/A - N/A - N/A - 
+ -  - AfW - Google for Work domain - Work space only (AfW) - ITAdmin commands - Update Device Data -  - N/A - CONCORD-1456 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Specify Device Password and Lock -  - N/A - CONCORD-1238 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - View Device report -  - N/A - CONCORD-1240 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - View Device actions -  - N/A - CONCORD-1242 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Lock Device -  - N/A - CONCORD-1246 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Delete Only Work Data -  - N/A - CONCORD-1460 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Update device information -  - N/A - CONCORD-1464 - N/A - N/A - N/A - 
+ -  - AfW - Google Apps for Work domain - Work space only (AfW) - Premium - ITAdmin commands - Update Device Data -  - N/A - CONCORD-1457 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Specify Device Password and Lock -  - N/A - CONCORD-1239 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - View Device report -  - N/A - CONCORD-1241 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - View Device actions -  - N/A - CONCORD-1243 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Lock Device -  - N/A - CONCORD-1247 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Delete Only Work Data -  - N/A - CONCORD-1461 - N/A - N/A - N/A - 
+ -  -  -  - ITAdmin commands - Update device information -  - N/A - CONCORD-1465 - N/A - N/A - N/A - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ - Device Profile - AfW - Google for Work domain - Work and personal - user privacy (AfW) - Device Profile -  - CONCORD-1092 - CONCORD-1092 - CONCORD-1092 - CONCORD-1092 - CONCORD-1092 - 
+ -  - AfW - Google Apps for Work domain - Work and personal - user privacy (AfW) - Premium - Device Profile -  - CONCORD-1093 - CONCORD-1093 - CONCORD-1093 - CONCORD-1093 - CONCORD-1093 - 
+ -  - AfW - Google for Work domain - Work space only (AfW) - Device Profile -  - CONCORD-1146 - CONCORD-1146 - CONCORD-1146 - CONCORD-1146 - CONCORD-1146 - 
+ -  - AfW - Google Apps for Work domain - Work space only (AfW) - Premium - Device Profile -  - CONCORD-1147 - CONCORD-1147 - CONCORD-1147 - CONCORD-1147 - CONCORD-1147 - 
+ -  -  -  -  -  -  -  -  -  -  - 
+[AfW-PP-Shared] - Certificate/Profiles - AfW - Google for Work domain - Work and personal - user privacy (AfW) - Shared Certificate - User/Group assigned -  -  -  -  -  -  - 
+[AfW-PP-UserCert] -  -  -  - User Certificate - User/Group assigned -  -  -  -  -  -  - 
+[AfW-PP-UserCred] -  -  -  - User Credential Profile - User/Group assigned -  -  -  -  -  -  - 
+[AfW-PP-UserCred] -  -  -  - User Credential Profile - Entrust connection -  -  -  -  -  -  - 
+[AfW-PP-SCEP] -  -  -  - SCEP - User/Group assigned (not implemented) -  -  -  -  -  -  - 
+[AfW-PP-Proxy] -  -  -  - Proxy Profile -  -  -  -  -  -  - 
+[AfW-PP-Proxy] -  -  -  - Proxy Profile - PAC Configuration -  - CONCORD-494 - CONCORD-1084 - CONCORD-1084 - CONCORD-1084 - CONCORD-1084 - 
+[AfW-PP-Proxy] -  -  -  - Proxy Profile - Manual Configuration -  - CONCORD-493 - CONCORD-1085 - CONCORD-1085 - CONCORD-1085 - CONCORD-1085 - 
+[AfW-PP-Shared] -  - AfW - Google Apps for Work domain - Work and personal - user privacy (AfW) - Premium - Shared Certificate - User/Group assigned -  -  -  -  -  -  - 
+[AfW-PP-UserCert] -  -  -  - User Certificate - User/Group assigned -  -  -  -  -  -  - 
+[AfW-PP-UserCred] -  -  -  - User Credential Profile - User/Group assigned -  -  -  -  -  -  - 
+[AfW-PP-UserCred] -  -  -  - User Credential Profile - Entrust connection -  -  -  -  -  -  - 
+[AfW-PP-SCEP] -  -  -  - SCEP - User/Group assigned (not implemented) -  -  -  -  -  -  - 
+[AfW-PP-Proxy] -  -  -  - Proxy Profile -  -  -  -  -  -  - 
+[AfW-PP-Proxy] -  -  -  - Proxy Profile - PAC Configuration -  - CONCORD-533 - CONCORD-1086 - CONCORD-1086 - CONCORD-1086 - CONCORD-1086 - 
+[AfW-PP-Proxy] -  -  -  - Proxy Profile - Manual Configuration -  - CONCORD-534 - CONCORD-1087 - CONCORD-1087 - CONCORD-1087 - CONCORD-1087 - 
+etc… -  - AfW - Google for Work domain - Work space only (AfW) - Shared Certificate - User/Group assigned -  -  -  -  -  -  - 
+ -  -  -  - User Certificate - User/Group assigned -  -  -  -  -  -  - 
+ -  -  -  - User Credential Profile - User/Group assigned -  -  -  -  -  -  - 
+ -  -  -  - User Credential Profile - Entrust connection -  -  -  -  -  -  - 
+ -  -  -  - SCEP - User/Group assigned (not implemented) -  -  -  -  -  -  - 
+ -  -  -  - Proxy Profile -  -  -  -  -  -  - 
+ -  -  -  - Proxy Profile - PAC Configuration -  - CONCORD-1248 - CONCORD-1254 - CONCORD-1254 - CONCORD-1254 - CONCORD-1254 - 
+ -  -  -  - Proxy Profile - Manual Configuration -  - CONCORD-1250 - CONCORD-1252 - CONCORD-1252 - CONCORD-1252 - CONCORD-1252 - 
+ -  - AfW - Google Apps for Work domain - Work space only (AfW) - Premium - Shared Certificate - User/Group assigned -  -  -  -  -  -  - 
+ -  -  -  - User Certificate - User/Group assigned -  -  -  -  -  -  - 
+ -  -  -  - User Credential Profile - User/Group assigned -  -  -  -  -  -  - 
+ -  -  -  - User Credential Profile - Entrust connection -  -  -  -  -  -  - 
+ -  -  -  - SCEP - User/Group assigned (not implemented) -  -  -  -  -  -  - 
+ -  -  -  - Proxy Profile -  -  -  -  -  -  - 
+ -  -  -  - Proxy Profile - PAC Configuration -  - CONCORD-1249 - CONCORD-1255 - CONCORD-1255 - CONCORD-1255 - CONCORD-1255 - 
+ -  -  -  - Proxy Profile - Manual Configuration -  - CONCORD-1251 - CONCORD-1253 - CONCORD-1253 - CONCORD-1253 - CONCORD-1253 - 
+ -  -  -  -  -  -  -  -  -  -  - 
+[AfW-PP-ITP] - IT Policy - AfW - Google for Work domain - Work and personal - user privacy (AfW) - Name, Applicable for Workspace only, Applicable for User privacy (as per the separate worksheet) -  -  -  -  -  -  - 
+ -  -  -  - Disable camera, Yes, Yes -  -  -  -  -  -  - 
+ -  -  -  - Allow Installation of non Google Play apps, Yes, Yes -  - CONCORD-529 - CONCORD-1088 - CONCORD-1088 - CONCORD-1088 - CONCORD-1088 - 
+ -  -  -  - Allow debugging features, Yes, Yes -  - CONCORD-529 - CONCORD-1088 - CONCORD-1088 - CONCORD-1088 - CONCORD-1088 - 
+ -  -  -  - Require App verification, Yes, Yes -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow Bluetooth configuration, Yes, No -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow configuring mobile networks, Yes, No -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow tethering configuration, Yes, No   -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow factory reset, Yes, No -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow mounting physical media, Yes, No -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow deleting users, Yes, No -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow SMS messages, Yes, No -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow USB file transfer, Yes, No  -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Set time automatically, Yes, No -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow cross profile caller ID, No, Yes -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow adding users, Yes, No -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow cross platform copy and paste, No, Yes -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow adding and removing accounts, Yes, Yes -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+ -  -  -  - Allow Screen capture, Yes, Yes -  - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - CONCORD-1090 - 
+[AfW-PP-ITP] -  - AfW - Google Apps for Work domain - Work and personal - user privacy (AfW) - Premium - Name, Applicable for Workspace only, Applicable for User privacy (as per the separate worksheet) -  -  -  -  -  -  - 
+ -  -  -  - Disable camera, Yes, Yes -  -  -  -  -  -  - 
+ -  -  -  - Allow Installation of non Google Play apps, Yes, Yes -  -  CONCORD-499 - CONCORD-1089 - CONCORD-1089 - CONCORD-1089 - CONCORD-1089 - 
+ -  -  -  - Allow debugging features, Yes, Yes -  -  CONCORD-499 - CONCORD-1089 - CONCORD-1089 - CONCORD-1089 - CONCORD-1089 - 
+ -  -  -  - Require App verification, Yes, Yes -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow Bluetooth configuration, Yes, No -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow configuring mobile networks, Yes, No -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow tethering configuration, Yes, No   -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow factory reset, Yes, No -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow mounting physical media, Yes, No -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow deleting users, Yes, No -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow SMS messages, Yes, No -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow USB file transfer, Yes, No  -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Set time automatically, Yes, No -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow cross profile caller ID, No, Yes -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow adding users, Yes, No -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow cross platform copy and paste, No, Yes -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow adding and removing accounts, Yes, Yes -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+ -  -  -  - Allow Screen capture, Yes, Yes -  - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - CONCORD-1091 - 
+[AfW-PP-ITP] -  - AfW - Google for Work domain - Work space only (AfW) - Name, Applicable for Workspace only, Applicable for User privacy (as per the separate worksheet) -  -  -  -  -  -  - 
+ -  -  -  - Disable camera, Yes, Yes -  -  -  -  -  -  - 
+ -  -  -  - Allow Installation of non Google Play apps, Yes, Yes -  - CONCORD-1126 - CONCORD-1126 - CONCORD-1126 - CONCORD-1126 - CONCORD-1126 - 
+ -  -  -  - Allow debugging features, Yes, Yes -  - CONCORD-1126 - CONCORD-1126 - CONCORD-1126 - CONCORD-1126 - CONCORD-1126 - 
+ -  -  -  - Require App verification, Yes, Yes -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow Bluetooth configuration, Yes, No -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow configuring mobile networks, Yes, No -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow tethering configuration, Yes, No   -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow factory reset, Yes, No -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow mounting physical media, Yes, No -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow deleting users, Yes, No -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow SMS messages, Yes, No -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow USB file transfer, Yes, No  -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Set time automatically, Yes, No -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow cross profile caller ID, No, Yes -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow adding users, Yes, No -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow cross platform copy and paste, No, Yes -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow adding and removing accounts, Yes, Yes -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+ -  -  -  - Allow Screen capture, Yes, Yes -  - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - CONCORD-1128 - 
+[AfW-PP-ITP] -  - AfW - Google Apps for Work domain - Work space only (AfW) - Premium - Name, Applicable for Workspace only, Applicable for User privacy (as per the separate worksheet) -  -  -  -  -  -  - 
+ -  -  -  - Disable camera, Yes, Yes -  -  -  -  -  -  - 
+ -  -  -  - Allow Installation of non Google Play apps, Yes, Yes -  - CONCORD-1127 - CONCORD-1127 - CONCORD-1127 - CONCORD-1127 - CONCORD-1127 - 
+ -  -  -  - Allow debugging features, Yes, Yes -  - CONCORD-1127 - CONCORD-1127 - CONCORD-1127 - CONCORD-1127 - CONCORD-1127 - 
+ -  -  -  - Require App verification, Yes, Yes -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow Bluetooth configuration, Yes, No -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow configuring mobile networks, Yes, No -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow tethering configuration, Yes, No   -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow factory reset, Yes, No -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow mounting physical media, Yes, No -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow deleting users, Yes, No -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow SMS messages, Yes, No -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow USB file transfer, Yes, No  -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Set time automatically, Yes, No -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow cross profile caller ID, No, Yes -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow adding users, Yes, No -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow cross platform copy and paste, No, Yes -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow adding and removing accounts, Yes, Yes -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  - Allow Screen capture, Yes, Yes -  - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - CONCORD-1129 - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ - Other Testcases -  -  - Activation of Multiple devices with the same user > assignment of different profiles/policy/Apps -  -  -  -  -  -  - 
+ -  -  -  - 5.1 or 5.1+ Android devices -  -  -  -  -  -  - 
+ -  -  -  - Less than 5.1 devices (as regression - should continue to work) -  -  -  -  -  -  - 
+ -  -  -  - Security Administrator - for some of above functionality including App management -  -  -  -  -  -  - 
+ -  -  -  - Enterprise Administrator - for some of above functionality including App management -  -  -  -  -  -  - 
+ -  -  -  - Senior HelpDesk - for some of above functionality including App management -  -  -  -  -  -  - 
+ -  -  -  - Junior HelpDesk - for some of above functionality including App management -  -  -  -  -  -  - 
+ -  -  -  - Custom Role Admin - for some of above functionality including App management -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ - Tier 0 testcases -  -  - Tenant Provisioning (provisioning test for On-prem) - T0 -  -  -  -  -  - 
+ -  -  -  - Tenant Provisioning (provisioning test for Cloud) - T0 -  -  -  -  -  -  -  -  - 
+ -  -  -  - Directory configuration (configuration test for On-prem) - T0 -  -  -  -  -  - 
+ -  -  -  - Directory configuration (configuration test for Cloud (including ZED)) - T0 -  -  -  -  -  -  -  -  - 
+ -  -  -  - Search Directory user, Create directory user, authenticate directory user (on log-in screen) - T0 -  -  -  -  -  - 
+ -  -  -  - AfW authorization (for Manage domain (with Create and Delete User in Google Domain is enabled)) - T0 -  -  -  -  -  - 
+ -  -  -  - AfW authorization (for Google App domain) - T0 -  -  -  -  -  -  -  -  - 
+ -  -  -  - Create and Activate AfW user(s) in BES12 and activate device(s) with “Work and personal - user privacy (AfW-Premium)” and “Work space only (AfW-Premium)” activation type > Assign email profile and AfW App Group (with play store App in it) to user(s) > Verify Email and Apps on the device - T0 -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 
+ -  -  -  -  -  -  -  -  -  -  - 

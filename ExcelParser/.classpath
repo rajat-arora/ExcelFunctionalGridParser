@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.13/poi-3.13-20150929.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/rajaarora/workspace/ExcelParser/lib/poi-3.13/docs/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.13/poi-examples-3.13-20150929.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.13/poi-excelant-3.13-20150929.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.13/poi-ooxml-3.13-20150929.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.13/poi-ooxml-schemas-3.13-20150929.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.13/poi-scratchpad-3.13-20150929.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/poi-3.13/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
